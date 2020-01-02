@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+  
+    "name": "Medium Email referal remover",
+    "description": "This extension automatically removes email refer id from medium link",
+    "version": "1.0",
+
+    "browser_actions" : {
+        "default_icon": "icons.png"
+    },
+
+    "background": {
+        "persistent": false,
+        "page": "background.html"
+    },
+
+    "permissions": [
+      "activeTab",
+      "tabs",
+      "clipboardRead",
+      "contextMenus"
+    ]
+  }
